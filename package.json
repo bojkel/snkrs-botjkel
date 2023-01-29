@@ -1,0 +1,20 @@
+{
+  "name": "snkrs-botjkel",
+  "version": "1.0.0",
+  "description": "A bot using Node.js & puppeteer that automates a transaction at a scheduled time on the Nike SNKRS Europe app.",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fs": "0.0.1-security",
+    "node-cron": "^3.0.2",
+    "node-schedule": "^2.1.1",
+    "puppeteer": "19.6.2",
+    "puppeteer-extra": "3.3.4",
+    "puppeteer-extra-plugin-stealth": "2.11.1",
+    "simple-node-logger": "21.8.12"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Bozhidar 'bojkel' Aleksandrov",
+  "license": "MIT"
+}
